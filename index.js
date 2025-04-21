@@ -1,12 +1,6 @@
 // Product Data
 const productsData = [
-    {
-      id: 1,
-      title: "Hp ProBook 11 X360- TOUCH- 256GB SSD/4GB RAM-Intel CELER",
-      description: "HP Probook 11 X360 Laptop256GB SSD1TB OF OneDrive Cloud Storage 4GB RAM, Thinner, Lighten Design, Fast, Durable And Mobile, TOUCHSCREEN WINDOWS 10 PROFESSIONAL UPGRADEABLE TO WINDOWS 11 WITH ONE CLICK",
-      price: 80.99,
-      image: "hp-pavillion.webp"
-    },
+    
     {
       id: 2,
       title: "Kingnote 2.09''inch Smartwatch Native Storm Waterproof T900U Black",
