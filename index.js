@@ -5,7 +5,7 @@ const productsData = [
       title: "Hp ProBook 11 X360- TOUCH- 256GB SSD/4GB RAM-Intel CELER",
       description: "HP Probook 11 X360 Laptop256GB SSD1TB OF OneDrive Cloud Storage 4GB RAM, Thinner, Lighten Design, Fast, Durable And Mobile, TOUCHSCREEN WINDOWS 10 PROFESSIONAL UPGRADEABLE TO WINDOWS 11 WITH ONE CLICK",
       price: 99.99,
-      image: "Hp probook 11.jpg"
+      image: "hpPro.jpg"
     },
     {
       id: 2,
