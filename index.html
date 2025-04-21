@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DigitalHippo | NG</title>
+  <link rel="stylesheet" href="web.css">
+  <link rel="stylesheet" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/03640edd42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  
+  <div id="main-content">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="first-side">
+   <a href="index.html"><img src="favicon.ico" alt="Logo" class="logo"></a>
+ 
+    <div class="more">
+        <p style="margin-right: 35px;">More</p>
+    <p>Trending</p>
+    </div>
+    </div>
+
+    <div class="second-side">
+    <div class="s-in">
+       <button style="border: none; outline: none; background-color: unset; font-size: 15px; margin-right: 30px;">Sign in</button>
+       <button style="border: none; outline: none; background-color: unset; font-size: 15px;">Create account</button>
+    </div>
+    <div class="search-icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </div>
+    </div>
+
+  </nav>
+  
+      <div class="search-content">
+        <div><input type="search" id="search" placeholder="Search..."></div>
+        <i class="fa-solid fa-xmark"></i>
+        <br>
+        <div class="search-items"></div>
+      </div>
+      <h1 class="hh">Your marketplace for high- <br> quality <span style="color: blue;">digital assets.</span></h1>
+   
+      <p style="color: gray; text-align: center; margin-top: 30px; font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="ppp">Welcome to DigitalHippo. Every asset  on our plartform is verified by our team to <br>
+      ensure our highest quality standards.
+      </p>
+
+      <div class="f">
+        <button class="blue-btn">Browse trending</button>
+        <button class="white-btn">Our quality promise</button>
+      </div>
+      
+      <div class='s-o'>
+      <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="h-o">Brand new</h1>
+      <p class="p-p">Explore our newest arrival.</p>
+      </div>
+      <!-- Main Container -->
+  <div class="container">
+    <div id="products" class="products"></div>
+  </div>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <button onclick="closeSide()" style="width: 30px; height: 30px; background-color: red; color: white; border-radius: 50%; border: none; outline: none; position: fixed; top: 30px;">X</button>
+    <center><img src="favicon.ico" alt="" style="width: 40px; width: 40px; margin-bottom: 20px;"></center>
+    <ul id="cart-items"></ul>
+    <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+    <center><button style="background-color: blue; color: white; width: 250px; height: 40px; border-radius: 20px; margin-top: 20px; outline: none; border: none;" onclick="openCheckout()"">Checkout</button></center>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div id="checkout-modal" class="modal">
+    <div class="modal-content">
+      <center><img src="favicon.ico" alt="" style="width: 40px; height: 40px;"></center>
+      <h2 style="color: blue; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Checkout Summary</h2>
+      <div id="checkout-summary" style="margin-top: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></div>
+      <button onclick="closeCheckout()" style="width: 30px; height: 30px; background-color: red; color: white; border-radius: 50%; border: none; outline: none; position: fixed; top: 30px;">X</button>
+    </div>
+  </div>
+
+  <div class="banner">
+    <img src="banner.jpg" alt="banner" style="width: 100%; border-radius: 10px;">
+  </div>
+
+  <footer style="width: 100%; height: 100px; font-size: 10px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding-top: 10px;"><h2>PANNY</h2></footer>
+
+  <div class="product-details">
+   
+  </div>
+
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
